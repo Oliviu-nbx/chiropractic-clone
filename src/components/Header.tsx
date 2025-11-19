@@ -19,12 +19,6 @@ const Header = () => {
             <a href="#acasa" className="text-foreground hover:text-accent transition-colors">
               Acasă
             </a>
-            <a href="#servicii" className="text-foreground hover:text-accent transition-colors">
-              Servicii
-            </a>
-            <a href="#testimoniale" className="text-foreground hover:text-accent transition-colors">
-              Testimoniale
-            </a>
             <a href="#contact" className="text-foreground hover:text-accent transition-colors">
               Contact
             </a>
@@ -59,7 +53,9 @@ const Header = () => {
               className="bg-accent text-accent-foreground hover:bg-accent/90"
               asChild
             >
-              <a href="#programare">Programează-te</a>
+              <a href="https://wa.me/40750829116" target="_blank" rel="noopener noreferrer">
+                Programează-te
+              </a>
             </Button>
           </div>
         </div>

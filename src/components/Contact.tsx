@@ -51,7 +51,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-bold text-foreground mb-1">Locație</h3>
-                <p className="text-muted-foreground">Str. Exemplu Nr. 123, Turda, Cluj</p>
+                <p className="text-muted-foreground">Str. Doctor Ioan Ratiu nr. 5, Turda</p>
               </div>
             </div>
 
@@ -65,6 +65,20 @@ const Contact = () => {
                 <p className="text-muted-foreground">Sâmbătă: 09:00 - 14:00</p>
               </div>
             </div>
+          </div>
+
+          {/* Google Maps */}
+          <div className="mt-12 rounded-2xl overflow-hidden shadow-2xl border border-border">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4490.850639536291!2d23.78299154897516!3d46.567574172619516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4749691aa60f3a7d%3A0xf34174cc1f302d1!2sChiropractor%20CBM!5e0!3m2!1sen!2sro!4v1763547951039!5m2!1sen!2sro"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="w-full"
+            />
           </div>
         </div>
       </div>
