@@ -61,8 +61,8 @@ const Footer = () => {
             <h4 className="font-bold text-foreground mb-4">Contact</h4>
             <ul className="space-y-2">
               <li className="text-sm text-muted-foreground">+40 750 829 116</li>
-              <li className="text-sm text-muted-foreground">Str. Exemplu Nr. 123</li>
-              <li className="text-sm text-muted-foreground">Turda, Cluj</li>
+              <li className="text-sm text-muted-foreground">Str. Doctor Ioan Ratiu nr. 5</li>
+              <li className="text-sm text-muted-foreground">Turda</li>
             </ul>
           </div>
         </div>

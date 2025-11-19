@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Phone } from "lucide-react";
-import heroImage from "@/assets/hero-image.jpg";
+import heroImage from "@/assets/spine-pain-hero.jpg";
 
 const Hero = () => {
   return (
@@ -30,7 +30,9 @@ const Hero = () => {
                 className="bg-accent text-accent-foreground hover:bg-accent/90 text-base"
                 asChild
               >
-                <a href="#programare">Programează-te</a>
+                <a href="https://wa.me/40750829116" target="_blank" rel="noopener noreferrer">
+                  Programează-te
+                </a>
               </Button>
               <Button
                 size="lg"
@@ -38,7 +40,7 @@ const Hero = () => {
                 className="border-border hover:bg-secondary text-base"
                 asChild
               >
-                <a href="#pasii" className="flex items-center gap-2">
+                <a href="#contact" className="flex items-center gap-2">
                   Vezi pașii pentru programare
                   <ArrowRight className="w-4 h-4" />
                 </a>
@@ -73,11 +75,11 @@ const Hero = () => {
           </div>
 
           <div className="relative">
-            <div className="rounded-2xl overflow-hidden shadow-2xl">
+            <div className="rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-primary to-secondary">
               <img
                 src={heroImage}
                 alt="Chiropractor CBM Turda - Evaluare profesională"
-                className="w-full h-auto"
+                className="w-full h-auto object-cover"
               />
             </div>
           </div>

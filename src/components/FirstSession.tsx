@@ -1,4 +1,4 @@
-import treatmentImage from "@/assets/treatment-image.jpg";
+import treatmentImage from "@/assets/spine-xray.jpg";
 
 const steps = [
   {
@@ -54,11 +54,11 @@ const FirstSession = () => {
           </div>
 
           <div className="relative">
-            <div className="rounded-2xl overflow-hidden shadow-2xl">
+            <div className="rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-primary to-secondary">
               <img
                 src={treatmentImage}
                 alt="Ședință de chiropractie - Tratament profesional"
-                className="w-full h-auto"
+                className="w-full h-auto object-cover"
               />
             </div>
           </div>
